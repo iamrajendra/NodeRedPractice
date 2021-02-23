@@ -1,0 +1,24 @@
+{
+  "name": "node-red-contrib-example-lower-case",
+  "version": "1.0.0",
+  "description": "My Love for IOTs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamrajendra/NodeRedPractice.git"
+  },
+  "author": "Rajendra Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamrajendra/NodeRedPractice/issues"
+  },
+  "homepage": "https://github.com/iamrajendra/NodeRedPractice#readme",
+  "node-red": {
+    "nodes": {
+      "lower-case": "lower-case.js"
+    }
+  }
+}
